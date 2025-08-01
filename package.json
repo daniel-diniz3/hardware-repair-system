@@ -43,19 +43,5 @@
   },
   "devDependencies": {
     "gh-pages": "^6.0.0"
-  },
-  "keywords": [
-    "hardware",
-    "repair",
-    "diagnostic",
-    "pcb",
-    "electronics",
-    "pwa"
-  ],
-  "author": "Daniel Diniz",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/daniel-diniz3/hardware-repair-system.git"
   }
 }
