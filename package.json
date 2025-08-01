@@ -1,0 +1,63 @@
+#### **package.json**
+```json
+{
+  "name": "hardware-repair-system",
+  "version": "1.0.0",
+  "description": "Sistema completo para diagnóstico e reparo de placas de circuito impresso",
+  "homepage": "https://daniel-diniz3.github.io/hardware-repair-system",
+  "private": false,
+  "dependencies": {
+    "@types/node": "^16.18.39",
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "typescript": "^4.9.5",
+    "lucide-react": "^0.263.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.0.0"
+  },
+  "keywords": [
+    "hardware",
+    "repair",
+    "diagnostic",
+    "pcb",
+    "electronics",
+    "pwa"
+  ],
+  "author": "Daniel Diniz",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/daniel-diniz3/hardware-repair-system.git"
+  }
+}
