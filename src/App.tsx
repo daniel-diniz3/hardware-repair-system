@@ -1,3 +1,16 @@
+import React from 'react';
+import PCBVisualAnalysis from '@/components/pcb-analysis/PCBVisualAnalysis';
+import './index.css';
+
+function App() {
+  return (
+    <div className="App">
+      <PCBVisualAnalysis />
+    </div>
+  );
+}
+
+export default App;
 import React, { useState, useEffect } from 'react';
 import { 
   Laptop, 
