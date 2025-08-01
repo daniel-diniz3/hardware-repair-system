@@ -30,3 +30,28 @@ git clone https://github.com/daniel-diniz3/hardware-repair-system.git
 cd hardware-repair-system
 npm install
 npm start
+Opção 2: Instalação como PWA
+Acesse: https://daniel-diniz3.github.io/hardware-repair-system
+Clique no ícone de instalação
+Use offline como aplicativo nativo
+Opção 3: Executável Desktop
+npm run build
+npm run electron-build
+🛠️ Tecnologias Utilizadas
+React 18 - Framework principal
+TypeScript - Type safety
+Tailwind CSS - Estilização moderna
+Lucide React - Ícones consistentes
+PWA - Progressive Web App
+Electron - Desktop app (opcional)
+📋 Pré-requisitos
+Node.js 16+
+npm ou yarn
+Navegador moderno (Chrome, Firefox, Safari, Edge)
+🎯 Como Usar
+Selecione o tipo de dispositivo
+Escolha o modelo específico
+Execute os testes de diagnóstico
+Visualize os esquemas elétricos
+Siga o guia de reparo
+Baixe o relatório completo
